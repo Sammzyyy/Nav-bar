@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>
+        .navbar{
+            background-color: goldenrod; 
+            font-family: calibri;
+            padding-right: 15px;
+            padding-left: 15px;
+            border-radius: 10px;
+        }
+        .navdiv{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo a{
+            font-size: 40px;
+            font-weight: bolder;
+            color: white;
+        }
+        li{
+            list-style: none;
+            display: inline;
+        }
+        li a{
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+        button{
+            background-color: black;
+            margin-left: 10px;
+            border-radius: 10px;
+            padding: 10px;
+            width: 90px;
+        }
+        button a{
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        /* .griditem{
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            justify-items: space-between;
+        } */
+        h1{
+            height: 500px;
+            border: 0px solid black;
+            display: flex; 
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 15px;
+            flex-wrap: wrap;
+            
+             
+         } 
+         .box{
+            height: 500px;
+            width: 250px;
+            background-color: gray;
+            padding: 20px;
+            border-radius: 10px;
+            border: 20px;
+         }
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">Samzstitches</a></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <button><a href="#">Sign in</a></button>
+                <button><a href="#">Sign up</a></button>
+            </ul>
+        </div>
+    </nav>
+    <!-- <div>
+        <div class="griditem">1</div>
+        <div class="griditem">2</div>
+        <div class="griditem">3</div>
+    </div> -->
+    <h1>
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+    </h1> 
+</body>
+</html>
